@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Avionics Team – Railgun Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .gallery img, .gallery video {
+      width: 100%;
+      max-width: 400px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .member {
+      flex: 1;
+      min-width: 200px;
+      background: #eee;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      padding: 10px 15px;
+      background: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .buttons a:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Avionics Team </h1>
+  <p>Spring 2025 | University of Washington Tacoma</p>
+</header>
+
+<div class="container">
+
+  <section>
+    <h2>🔧 Project Overview</h2>
+    <p>
+      Our avionics system for the 
+      railgun-launched drone 
+      is responsible for real-time data collection, telemetry transmission, and onboard photo capture. We used a Cicerone Move-X board for GPS and environmental data, BME280 for weather measurements, and ESP32-CAM modules for capturing images mid-flight.
+    </p>
+  </section>
+
+  <section>
+    <h2>📷 Media</h2>
+    <div class="gallery">
+      <img src="images/drone-setup.jpg" alt="Drone Setup">
+      <video controls>
+        <source src="videos/launch.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section>
+    <h2>👥 Team Members</h2>
+    <div class="team">
+      <div class="member">
+        <h3>Cobalt</h3>
+        <p>description.</p>
+      </div>
+      <div class="member">
+        <h3>Perla</h3>
+        <p> Description</p>
+      </div>
+      <div class="member">
+        <h3>Sudip</h3>
+        <p> Description</p>
+      </div>
+      <div class="member">
+        <h3>Jimmy</h3>
+        <p>Description.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📄 Resources</h2>
+    <div class="buttons">
+      <a href="docs/report.pdf" target="_blank">Final Report</a>
+      <a href="https://github.com/yourusername/railgun-avionics" target="_blank">GitHub Repo</a>
+      <a href="https://youtu.be/sample_video" target="_blank">Launch Video</a>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
